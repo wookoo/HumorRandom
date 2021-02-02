@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HumorRandom/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/HumorRandom/static/js/main.02e23f67.chunk.js",
+    "main.js.map": "/HumorRandom/static/js/main.02e23f67.chunk.js.map",
+    "runtime-main.js": "/HumorRandom/static/js/runtime-main.daa9e03d.js",
+    "runtime-main.js.map": "/HumorRandom/static/js/runtime-main.daa9e03d.js.map",
+    "static/js/2.ba9d14ea.chunk.js": "/HumorRandom/static/js/2.ba9d14ea.chunk.js",
+    "static/js/2.ba9d14ea.chunk.js.map": "/HumorRandom/static/js/2.ba9d14ea.chunk.js.map",
+    "static/js/3.49931919.chunk.js": "/HumorRandom/static/js/3.49931919.chunk.js",
+    "static/js/3.49931919.chunk.js.map": "/HumorRandom/static/js/3.49931919.chunk.js.map",
+    "index.html": "/HumorRandom/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/HumorRandom/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.ba9d14ea.chunk.js.LICENSE.txt": "/HumorRandom/static/js/2.ba9d14ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daa9e03d.js",
+    "static/js/2.ba9d14ea.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.02e23f67.chunk.js"
+  ]
+}
