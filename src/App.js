@@ -27,7 +27,7 @@ class App extends Component {
     const { url,year,month,day,hour,min } = this.state
     if (url.length === 0 || year.length ===0 || hour.length === 0) return alert('입력을 입력해주세요.')
     //console.log("어싱크");
-    const result = await axios.get("http://172.30.1.31:2000",{params:{
+    const result = await axios.get("http://wookoo.synology.me:3000",{params:{
       url :url,
       year:year,
       month:month,
@@ -144,7 +144,7 @@ class App extends Component {
               <input
                 type='text'
                 className='form-control'
-                placeholder='웃대에서 복사한 단축 URL '
+                placeholder='웃대에서 복사한 단축 URL 's
                 style={{height:30}}
                 onChange={this._handleOnChangeUrlInput}
           
