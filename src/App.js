@@ -26,8 +26,8 @@ class App extends Component {
   async _handleOnClickAddItem () {
     const { url,year,month,day,hour,min } = this.state
     if (url.length === 0 || year.length ===0 || hour.length === 0) return alert('입력을 입력해주세요.')
-    //console.log("어싱크");
-    const result = await axios.get("http://wookoo.synology.me:3000",{params:{
+    //console.log("어싱크");npm
+    const result = await axios.get("http://34.64.168.12:3000",{params:{
       url :url,
       year:year,
       month:month,
@@ -48,11 +48,6 @@ class App extends Component {
       url: '',
       comments:[],
       writter: '',
-      year:'',
-      month:'',
-      day:'',
-      hour:'',
-      min:'',
       choice:[],
     });
     return alert("입력을 확인해주세요 !");
